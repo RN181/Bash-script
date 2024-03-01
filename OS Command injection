@@ -1,0 +1,4 @@
+OS Command injection 
+
+Example
+OS.system("/bin/ffmpeg -i {} -c:v vp9 -r 30 /files/user/{}videos".format(video_name, session.get('user_id')))
