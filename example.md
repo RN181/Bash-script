@@ -43,7 +43,7 @@ then
 else
   echo "welcome to the coruse!"
 fi
-``
+```
 
 example else if elif
 =
@@ -61,7 +61,7 @@ then
 else
   echo "welcome to the coruse!"
 fi
-``
+```
 
 example
 =
