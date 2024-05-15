@@ -1,0 +1,42 @@
+```
+user2=kali
+grep $user2 /etc/passwd && echo "$user2 found!"
+```
+
+```
+for ip in $(seq 1 10); do echo 10.11.1.$ip; donw    
+```
+
+
+```
+#!/bin/bash
+#while loop example
+
+counter=1
+
+while [$counter -lt 10]
+do
+  echo "10.11.1.$counter"
+  ((counter++))
+done
+```
+
+# function
+```
+#!/bin/bash
+# passing arguments to functions
+
+pass_arg(){
+  echo "today's random number is: $1"
+}
+pass_arg $RANDOM
+```
+
+
+
+
+
+
+
+
+
